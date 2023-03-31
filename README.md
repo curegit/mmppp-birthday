@@ -10,7 +10,7 @@ iCalendar
 
 ## ノート
 
-- RFC 5545 に基づいて実装しています。
+- [RFC 5545](https://www.rfc-editor.org/rfc/rfc5545.html) に基づいて実装しています。
 - iCalendarでの特殊文字をエスケープしていません。CSV 内容が直接書かれるので注意してください。
 - iCalendar長いデータを
 - CSV のエスケープ実装は考慮していません。
