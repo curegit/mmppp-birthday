@@ -8,7 +8,7 @@ $table = require "./module.php";
 const AUTHOR = "curegit";
 const PRODUCT = "mmppp-birthday";
 ?>
-<?php header('Content-Type: text/calendar;charset=UTF-8'); ?>
+<?php header('Content-Type: text/calendar; charset=UTF-8'); ?>
 <?php header('Content-Disposition: attachment; filename="mmppp-birthday.ics"'); ?>
 <?php header('Cache-Control: no-store'); ?>
 BEGIN:VCALENDAR
