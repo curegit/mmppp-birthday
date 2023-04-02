@@ -3,7 +3,7 @@ if ($main = !defined("MAIN")) {
     define("MAIN", __FILE__);
 }
 
-require "./module.php";
+$table = require "./module.php";
 
 const AUTHOR = "curegit";
 const PRODUCT = "mmppp-birthday";
@@ -15,7 +15,7 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:<?= AUTHOR ?>/<?= PRODUCT ?>
 
-<?php FOREACH($records as $row): ?>
+<?php FOREACH($table as $row): ?>
 BEGIN:VEVENT
 UID:<?= $row["uid"] ?>
 
