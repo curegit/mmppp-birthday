@@ -1,8 +1,4 @@
 <?php
-if ($main = !defined("MAIN")) {
-    define("MAIN", __FILE__);
-}
-
 $table = require "./module.php";
 
 const AUTHOR = "curegit";
